@@ -9,4 +9,14 @@
 {{wtf.quick_form(form)}}
 </div>
 </div>
+
+<div class = 'page-header'>
+
+    {% if prediction != ""  %}
+
+    <h1>the animal in the image is {{prediction}} </h1>
+
+    {% endif %}
+
+</div>
 {% endblock %}
